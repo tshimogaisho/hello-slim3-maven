@@ -4,7 +4,8 @@ target/
 build/
 test/
 src/main/webapp/WEB-INF/lib/
-src/main/webapp/WEB-INF/appengine-generated
+src/main/webapp/WEB-INF/appengine-generated/
+src/main/webapp/WEB-INF/classes/
 .classpath
 .factorypath
 .project

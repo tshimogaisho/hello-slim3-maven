@@ -9,6 +9,6 @@
 <title>Hello</title>
 </head>
 <body>
-<p>Hello Slim3!</p>
+<p>Hello Slim3 Maven!</p>
 </body>
 </html>

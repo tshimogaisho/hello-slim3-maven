@@ -3,6 +3,7 @@
 target/
 build/
 test/
+bin/
 src/main/webapp/WEB-INF/lib/
 src/main/webapp/WEB-INF/appengine-generated/
 src/main/webapp/WEB-INF/classes/

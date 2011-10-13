@@ -1,0 +1,11 @@
+.settings/
+.externalToolBuilders/
+target/
+build/
+test/
+src/main/webapp/WEB-INF/lib/
+src/main/webapp/WEB-INF/appengine-generated
+.classpath
+.factorypath
+.project
+

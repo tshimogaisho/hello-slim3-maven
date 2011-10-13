@@ -13,8 +13,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<gae.version>1.5.3</gae.version>
-		<gae.runtime>1.5.3</gae.runtime>
+		<gae.version>1.5.5</gae.version>
+		<gae.runtime>1.5.5</gae.runtime>
 		<slim3.version>1.0.13</slim3.version>
 		<generated.war>src/main/webapp</generated.war>
 		<generated.src>target/apt_generated</generated.src>

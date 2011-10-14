@@ -265,6 +265,14 @@ org.eclipse.jdt.apt.reconcileEnabled=false
 				</additionalConfig>
 			</configuration>
 		</plugin>
+		
+		<plugin>
+                <groupId>net.kindleit</groupId>
+                <artifactId>maven-gae-plugin</artifactId>
+                <version>0.9.1</version>
+		</plugin>		
+		
+		
 	</plugins>
 </build>
 		

@@ -115,6 +115,14 @@
 
 	<outputDirectory>${generated.war}/WEB-INF/classes</outputDirectory>
 
+    <!--リポジトリのurlが dav:https の場合にアクセスできないケースへの対応  -->
+    <extensions>
+         <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-webdav-jackrabbit</artifactId>
+         </extension>
+     </extensions>
+
 	<plugins>
 	
 		<plugin>

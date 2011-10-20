@@ -2,7 +2,6 @@
 .externalToolBuilders/
 target/
 build/
-test/
 bin/
 lib/
 src/main/webapp/WEB-INF/lib/

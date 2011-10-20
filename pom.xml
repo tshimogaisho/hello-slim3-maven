@@ -13,7 +13,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<gae.version>1.5.3</gae.version>
+		<gae.version>1.5.5</gae.version>
+		<gae.home>${settings.localRepository}/com/google/appengine/appengine-java-sdk/${gae.version}/appengine-java-sdk-${gae.version}</gae.home>
 		<slim3.version>1.0.13</slim3.version>
 		<generated.war>src/main/webapp</generated.war>
 		<generated.src>target/apt_generated</generated.src>
@@ -54,12 +55,12 @@
 			<version>${gae.version}</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.google.appengine</groupId>
-			<artifactId>appengine-local-runtime</artifactId>
-			<version>${gae.version}</version>
-			<scope>test</scope>
-		</dependency>		
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.google.appengine</groupId> -->
+<!-- 			<artifactId>appengine-local-runtime</artifactId> -->
+<!-- 			<version>${gae.version}</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 		</dependency>		 -->
 	
 		<!-- Provided Scope -->
 
@@ -278,8 +279,11 @@ org.eclipse.jdt.apt.reconcileEnabled=false
                 <groupId>net.kindleit</groupId>
                 <artifactId>maven-gae-plugin</artifactId>
                 <version>0.9.1</version>
+					<configuration>
+						<gae.serverId>helloslim3-maven</gae.serverId>
+						<gae.home>${gae.home}</gae.home>
+					</configuration>
 		</plugin>		
-		
 		
 	</plugins>
 </build>

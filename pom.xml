@@ -9,7 +9,7 @@
 	<name>helloslim3-maven</name>
 	<version>1.0.0-SNAPSHOT</version>
 	<inceptionYear>2011</inceptionYear>
-	<url>http://helloslim3.appspot.com</url>
+	<url>http://com.example</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

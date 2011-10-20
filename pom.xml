@@ -13,6 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.dirName>helloslim3-maven</project.dirName>
 		<gae.version>1.5.5</gae.version>
 		<gae.home>${settings.localRepository}/com/google/appengine/appengine-java-sdk/${gae.version}/appengine-java-sdk-${gae.version}</gae.home>
 		<slim3.version>1.0.13</slim3.version>
@@ -255,7 +256,7 @@
 						<content>
 							<![CDATA[
 <factorypath>
-	<factorypathentry kind="WKSPJAR" id="/${artifactId}/${eclipse.lib}/slim3-gen-${slim3.version}.jar" enabled="true" runInBatchMode="false"/>
+	<factorypathentry kind="WKSPJAR" id="/${project.dirName}/${eclipse.lib}/slim3-gen-${slim3.version}.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>
 							 ]]>
 						</content>
